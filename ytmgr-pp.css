@@ -1,0 +1,36 @@
+.you-tube-manager-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.you-tube-manager-container1 {
+  top: 75px;
+  left: 67px;
+  width: 1046px;
+  height: 1642px;
+  position: absolute;
+}
+.you-tube-manager-container2 {
+  display: contents;
+}
+@media(max-width: 991px) {
+  .you-tube-manager-container1 {
+    width: 865px;
+  }
+}
+@media(max-width: 767px) {
+  .you-tube-manager-container1 {
+    top: 13px;
+    left: 53px;
+    width: 674px;
+  }
+}
+@media(max-width: 479px) {
+  .you-tube-manager-container1 {
+    width: 393px;
+  }
+}
