@@ -302,6 +302,7 @@
   font-size: 20px;
   transition: 0.3s;
   margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
 .home-nav2:hover {
   color: #3d6e70ff;
@@ -577,14 +578,10 @@
   align-items: center;
   flex-direction: row;
 }
-.home-nav1 {
-  color: var(--dl-color-secondary-gray500);
-  margin-left: 0px;
-  text-decoration: none;
-}
 .home-nav21 {
   color: var(--dl-color-secondary-gray500);
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-nav41 {
   color: var(--dl-color-secondary-gray500);
