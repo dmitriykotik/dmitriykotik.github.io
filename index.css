@@ -301,6 +301,7 @@
 .home-nav1 {
   font-size: 20px;
   transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .home-nav1:hover {
