@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>MultiPlayer : Главная страница</title>
-    <meta property="og:title" content="MultiPlayer : Главная страница" />
+    <title>MultiPlayer : Скачать</title>
+    <meta property="og:title" content="MultiPlayer : Скачать" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -59,35 +59,35 @@
   <body>
     <link rel="stylesheet" href="./style.css" />
     <div>
-      <link href="./index.css" rel="stylesheet" />
+      <link href="./download.css" rel="stylesheet" />
 
-      <div class="home-container">
-        <header id="header" class="home-header">
+      <div class="download-container">
+        <header id="header" class="download-header">
           <header
             data-thq="thq-navbar"
-            class="home-navbar-interactive heading2"
+            class="download-navbar-interactive heading2"
           >
-            <a href="index.html" class="home-logo">MULTIPLAYER</a>
-            <div data-thq="thq-navbar-nav" class="home-desktop-menu">
-              <nav class="home-links">
-                <a href="#about" class="home-nav2">About</a>
-                <a href="download.html" class="home-nav4">Download</a>
-                <a href="#blog" class="home-nav5">Blog</a>
+            <a href="index.html" class="download-logo">MULTIPLAYER</a>
+            <div data-thq="thq-navbar-nav" class="download-desktop-menu">
+              <nav class="download-links">
+                <a href="index.html" class="download-nav2">About</a>
+                <a href="download.html" class="download-nav4">Download</a>
+                <a href="index.html" class="download-nav5">Blog</a>
               </nav>
             </div>
-            <div data-thq="thq-burger-menu" class="home-burger-menu">
-              <svg viewBox="0 0 1024 1024" class="home-icon">
+            <div data-thq="thq-burger-menu" class="download-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="download-icon">
                 <path
                   d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
                 ></path>
               </svg>
             </div>
-            <div data-thq="thq-mobile-menu" class="home-mobile-menu">
-              <div class="home-nav">
-                <div class="home-top">
-                  <span class="home-logo1">MULTIPLAYER</span>
-                  <div data-thq="thq-close-menu" class="home-close-menu">
-                    <svg viewBox="0 0 1024 1024" class="home-icon2">
+            <div data-thq="thq-mobile-menu" class="download-mobile-menu">
+              <div class="download-nav">
+                <div class="download-top">
+                  <span class="download-logo1">MULTIPLAYER</span>
+                  <div data-thq="thq-close-menu" class="download-close-menu">
+                    <svg viewBox="0 0 1024 1024" class="download-icon2">
                       <path
                         d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
                       ></path>
@@ -99,204 +99,125 @@
             </div>
           </header>
         </header>
-        <div class="home-hero list-item">
-          <div class="home-container1">
-            <h1 class="home-text01">Добро пожаловать к нам в гости :3</h1>
-            <span class="home-text02">
-              Мы занимаемся разработкой бесплатного программного обеспечение :)
-              Также вы можете скачать исходные коды этих программ. Возможно, вы
-              сможете найти себе что-то по душе. Так что? Давайте начнём? :3
-            </span>
-            <button class="home-button button">Давай начнём</button>
-          </div>
-        </div>
-        <div class="home-features">
-          <h1 class="home-text03">Вот некоторые наши проекты</h1>
-          <div class="home-container2">
+        <div class="download-features">
+          <h1 class="download-text1">
+            <span>Выберите проект:</span>
+            <br />
+          </h1>
+          <div class="download-container1">
             <a href="download/multilib.html">
-              <div class="multilib-feature-card multilib-root-class-name">
-                <svg viewBox="0 0 1024 1024" class="multilib-icon">
+              <div
+                class="feature-card31-feature-card feature-card31-root-class-name"
+              >
+                <svg viewBox="0 0 1024 1024" class="feature-card31-icon">
                   <path
                     d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
                   ></path>
                 </svg>
-                <div class="multilib-container">
-                  <h2 class="multilib-text"><span>MultiLib</span></h2>
+                <h2 class="feature-card31-text"><span>MultiLib</span></h2>
+                <span class="feature-card31-text1">
                   <span>
-                    <span>
-                      Библиотека для разработчиков на C#. Помогает немного
-                      упростить код и немного полезно для начинающих
-                      разработчиков.
-                    </span>
+                    Библиотека для разработчиков на C#. Помогает немного
+                    упростить код и немного полезно для начинающих
+                    разработчиков.
                   </span>
-                </div>
+                </span>
+                <span class="feature-card31-text2"><span>К проекту</span></span>
               </div>
             </a>
             <a href="download/multiterminal.html">
               <div
-                class="multiterminal-feature-card multiterminal-root-class-name"
+                class="feature-card31-feature-card feature-card31-root-class-name3"
               >
-                <svg viewBox="0 0 1024 1024" class="multiterminal-icon">
+                <svg viewBox="0 0 1024 1024" class="feature-card31-icon">
                   <path
                     d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
                   ></path>
                 </svg>
-                <div class="multiterminal-container">
-                  <h2 class="multiterminal-text"><span>MultiTerminal</span></h2>
+                <h2 class="feature-card31-text"><span>MultiTerminal</span></h2>
+                <span class="feature-card31-text1">
                   <span>
-                    <span>
-                      Это терминал как для обычных пользователей, так и для
-                      разработчиков. И он тоже с открытым исходным кодом :D
-                    </span>
+                    Это терминал как для обычных пользователей, так и для
+                    разработчиков. И он тоже с открытым исходным кодом :D
                   </span>
-                </div>
+                </span>
+                <span class="feature-card31-text2"><span>К проекту</span></span>
               </div>
             </a>
             <a href="download/sylux.html">
-              <div class="sylux-feature-card sylux-root-class-name">
-                <svg viewBox="0 0 1024 1024" class="sylux-icon">
+              <div
+                class="feature-card31-feature-card feature-card31-root-class-name5"
+              >
+                <svg viewBox="0 0 1024 1024" class="feature-card31-icon">
                   <path
                     d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
                   ></path>
                 </svg>
-                <div class="sylux-container">
-                  <h2 class="sylux-text"><span>Sylux</span></h2>
+                <h2 class="feature-card31-text"><span>Sylux</span></h2>
+                <span class="feature-card31-text1">
                   <span>
-                    <span>
-                      Sylux - Это простейшее ядро, с открытым исходным кодом и
-                      написанное на языке C.
-                    </span>
+                    Sylux - Это простейшее ядро, с открытым исходным кодом и
+                    написанное на языке C.
                   </span>
-                </div>
+                </span>
+                <span class="feature-card31-text2"><span>К проекту</span></span>
               </div>
             </a>
             <a href="download/ytmgr.html">
-              <div class="ytmgr-feature-card ytmgr-root-class-name">
-                <svg viewBox="0 0 1024 1024" class="ytmgr-icon">
+              <div
+                class="feature-card31-feature-card feature-card31-root-class-name1"
+              >
+                <svg viewBox="0 0 1024 1024" class="feature-card31-icon">
                   <path
                     d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
                   ></path>
                 </svg>
-                <div class="ytmgr-container">
-                  <h2 class="ytmgr-text"><span>YouTube Manager</span></h2>
+                <h2 class="feature-card31-text">
+                  <span>YouTube Manager</span>
+                </h2>
+                <span class="feature-card31-text1">
                   <span>
-                    <span>
-                      Данная программа позволяет анализировать ролики,
-                      комментарии, каналы и т.д. Оно также с открытым исходным
-                      кодом.
-                    </span>
+                    Данная программа позволяет анализировать ролики,
+                    комментарии, каналы и т.д. Оно также с открытым исходным
+                    кодом.
                   </span>
-                </div>
+                </span>
+                <span class="feature-card31-text2"><span>К проекту</span></span>
               </div>
             </a>
-          </div>
-        </div>
-        <div class="home-banner">
-          <h1 class="home-text04">
-            Нужен исходный код этих программ? Так зайди на наш GitHub!
-          </h1>
-          <span class="home-text05">
-            <span>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-                volutpat turpis. Mauris luctus rutrum mi ut rhoncus. Integer in
-                dignissim tortor.
-              </span>
-              <span></span>
-            </span>
-          </span>
-          <div class="home-btn-group">
-            <a
-              href="https://github.com/dmitriykotik"
-              target="_blank"
-              rel="noreferrer noopener"
-              class="home-link button"
+            <div
+              class="feature-card31-feature-card feature-card31-root-class-name2"
             >
-              GitHub
-            </a>
-            <a href="download.html" class="home-navlink4 button">
-              Открыть страницу с проектами
-            </a>
-          </div>
-        </div>
-        <div id="about" class="home-about">
-          <h1 class="home-text09">Чем мы занимаемся?</h1>
-          <span class="home-text10">
-            <span>
-              &nbsp; &nbsp; Привет, мы компания по разработке бесплатного
-              программного обеспечения с открытым исходным кодом. Все исходные
-              коды программ вы можете найти на нашем GitHub! Мы не запрещаем вам
-              использовать наш исходный код в своих проектах.
-            </span>
-            <br />
-            <br />
-            <span>
-              &nbsp; &nbsp; Само название MultiPlayer не является официально
-              зарегистрированным и обозначает лишь команду разработчиков, со
-              своей структурой внутри.&nbsp;
-            </span>
-          </span>
-        </div>
-        <div id="blog" class="home-container3">
-          <h1 class="home-text15">Наш блог</h1>
-          <div class="home-blog">
-            <div class="home-container4">
-              <div
-                class="blog-post-card1-blog-post-card blog-post-card1-root-class-name3"
-              >
-                <img
-                  alt="image"
-                  src="https://raw.githubusercontent.com/dmitriykotik/dmitriykotik.github.io/main/jigar-panchal-wgeTD37mGN4-unsplash.jpg"
-                  class="blog-post-card1-image"
-                />
-                <div class="blog-post-card1-container">
-                  <span class="blog-post-card1-text">
-                    <span>ИНФОРМАЦИЯ</span>
-                  </span>
-                  <span class="blog-post-card1-text1">
-                    <span>Мы открыли новый сайт!</span>
-                  </span>
-                  <span class="blog-post-card1-text2">
-                    <span>
-                      Привет, мы открыли новый сайт, а именно этот, на котором
-                      вы сейчас находитесь. Тут будут публиковаться разные
-                      новости и программы.
-                    </span>
-                  </span>
-                  <div class="blog-post-card1-container1">
-                    <div class="blog-post-card1-profile">
-                      <img
-                        alt="profile"
-                        src="https://lh3.googleusercontent.com/a/ACg8ocLDwhPDjcZ5mAZMdWkBJJ5fZXQU09Dp_kytthOW3v3_9w=s96-c-rg-br100"
-                        image_src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTYyNjQzMTMwMw&amp;ixlib=rb-1.2.1&amp;h=1200"
-                        class="blog-post-card1-image1"
-                      />
-                      <span class="blog-post-card1-text3">
-                        <span>Дмитрий Некраш</span>
-                      </span>
-                    </div>
-                    <span class="blog-post-card1-text4">
-                      <span>&gt;1 min read</span>
-                    </span>
-                  </div>
-                </div>
-              </div>
+              <svg viewBox="0 0 1024 1024" class="feature-card31-icon">
+                <path
+                  d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"
+                ></path>
+              </svg>
+              <h2 class="feature-card31-text"><span>MultiSMTP</span></h2>
+              <span class="feature-card31-text1">
+                <span>
+                  Проект с помощью которого можно отправлять письма на
+                  электронную почту. Проект имеет как программу так и библиотеку
+                  на C#.
+                </span>
+              </span>
+              <span class="feature-card31-text2"><span>К проекту</span></span>
             </div>
           </div>
         </div>
-        <div class="home-footer">
-          <footer class="home-footer1">
-            <div class="home-container5">
-              <a href="index.html" class="home-logo2">MULTIPLAYER</a>
-              <nav class="home-nav1">
-                <a href="#about" class="home-nav21">About</a>
-                <a href="download.html" class="home-nav41">Download</a>
-                <a href="#blog" class="home-nav51">Blog</a>
+        <div class="download-footer">
+          <footer class="download-footer1">
+            <div class="download-container2">
+              <a href="index.html" class="download-logo2">MULTIPLAYER</a>
+              <nav class="download-nav1">
+                <a href="index.html" class="download-nav21">About</a>
+                <a href="download.html" class="download-nav41">Download</a>
+                <a href="index.html" class="download-nav51">Blog</a>
               </nav>
             </div>
-            <div class="home-separator"></div>
-            <div class="home-container6">
-              <span class="home-text16">
+            <div class="download-separator"></div>
+            <div class="download-container3">
+              <span class="download-text4">
                 © 2023 MultiPlayer, All Rights Reserved.
               </span>
             </div>

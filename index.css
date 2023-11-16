@@ -311,6 +311,7 @@
   font-size: 20px;
   transition: 0.3s;
   margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
 .home-nav4:hover {
   color: #3d6e70ff;
@@ -438,6 +439,18 @@
   grid-gap: var(--dl-space-space-twounits);
   grid-template-columns: 1fr 1fr;
 }
+.home-component {
+  text-decoration: none;
+}
+.home-component1 {
+  text-decoration: none;
+}
+.home-component2 {
+  text-decoration: none;
+}
+.home-component3 {
+  text-decoration: none;
+}
 .home-banner {
   width: 100%;
   display: flex;
@@ -464,27 +477,29 @@
   align-items: center;
   flex-direction: row;
 }
-.home-button1 {
+.home-link {
   color: var(--dl-color-gray-white);
   transition: 0.3s;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.home-button1:hover {
+.home-link:hover {
   transform: scale(1.02);
 }
-.home-button2 {
+.home-navlink4 {
   transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-twounits);
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.home-button2:hover {
+.home-navlink4:hover {
   transform: scale(1.02);
 }
 .home-about {
@@ -586,6 +601,7 @@
 .home-nav41 {
   color: var(--dl-color-secondary-gray500);
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .home-nav51 {
   color: var(--dl-color-secondary-gray500);
@@ -747,7 +763,7 @@
   .home-btn-group {
     flex-direction: column;
   }
-  .home-button2 {
+  .home-navlink4 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
