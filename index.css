@@ -298,15 +298,6 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-.home-nav1 {
-  font-size: 20px;
-  transition: 0.3s;
-  margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
-}
-.home-nav1:hover {
-  color: #3d6e70ff;
-}
 .home-nav2 {
   font-size: 20px;
   transition: 0.3s;
@@ -586,7 +577,7 @@
   align-items: center;
   flex-direction: row;
 }
-.home-nav11 {
+.home-nav1 {
   color: var(--dl-color-secondary-gray500);
   margin-left: 0px;
   text-decoration: none;
